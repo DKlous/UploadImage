@@ -11,6 +11,12 @@ if(isset($_POST['action'])) {
                  // hier kun je de image gegevens naar de database sturen
              }
              break;
+         case "add":
+             // eventuele extra actions vanuit form data kun je hier verwerken
+             break;
+         case "update":
+             // eventuele extra actions vanuit form data kun je hier verwerken
+             break;
      }
 }
 
